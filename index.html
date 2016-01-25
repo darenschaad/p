@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet">
+    <script src="js/jquery-1.12.0.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/scripts.js" type="text/javascript"></script>
+    <title>Places We've been</title>
+  </head>
+  <body>
+    <div class="container">
+      <h2>Places We've Been</h2>
+      <div class="row">
+        <div class="col-md-6">
+          <p class="lead">Please enter the info about the places you have been to here:</p>
+          <form id="new-place">
+            <div class="form-group">
+              <div class="col-md-7">
+                <label for="inputtedCity">City Name:</label>
+              </div>
+              <div class="col-md-5">
+                <input id="inputtedCity" type="text">
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="col-md-7">
+                <label for="inputtedCountry">Country:</label>
+              </div>
+              <div class="col-md-5">
+                <input id="inputtedCountry" type="text">
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="col-md-7">
+                <label for="inputtedLandmark">Landmark Name:</label>
+              </div>
+              <div class="col-md-5">
+                <input id="inputtedLandmark" type="text">
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="col-md-7">
+                <label for="inputtedTime">Time of Year When You Visited:</label>
+              </div>
+              <div class="col-md-5">
+                <input id="inputtedTime" type="text">
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="col-md-7">
+                <label for="inputtedNotes">Notes About Your Trip:</label>
+              </div>
+              <div class="col-md-5">
+                <input id="inputtedNotes" type="text">
+              </div>
+              <br></br>
+            </div>
+            <button type="submit" class="btn" btn-lg btn-primary>Add to List of Places You've Been</button>
+          </form>
+          <div class="resultTitle">
+            <h2>Places:</h2>
+            <ul id="places">
+          </div>
+          </ul>
+        </div>
+
+        <div class="col-md-6">
+          <div id="show-place">
+            <h2></h2>
+            <p>Landmark: <span class="landmark"</span></p>
+            <p>Time of Year: <span class="time"</span></p>
+            <p>Notes: <span class="notes"</span></p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+  </body>
+</html>

@@ -1,0 +1,20 @@
+#show-place {
+  display: none;
+}
+
+.place {
+  cursor: pointer;
+  color: #0088cc;
+}
+
+.place:hover {
+  text-decoration: underline;
+}
+
+button {
+  margin-top: 20px;
+}
+
+.resultTitle {
+  display: none;
+}
